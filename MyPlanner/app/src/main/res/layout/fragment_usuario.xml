@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usuario"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Usuario"
+        android:textFontWeight="1800"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:textColor="@color/botones"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="65dp"/>
+
+    <TextView
+        android:id="@+id/textUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="184dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Cerrar sesión"
+        android:textSize="20dp"
+        android:backgroundTint="@color/botones"/>
+</LinearLayout>

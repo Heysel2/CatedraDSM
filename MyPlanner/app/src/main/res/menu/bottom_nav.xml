@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Inicio"
+        android:id="@+id/inicio"
+        android:icon="@drawable/inicio"/>
+
+    <item android:title="Hoy"
+        android:id="@+id/dia"
+        android:icon="@drawable/dia"/>
+
+    <item android:title="Agregar"
+        android:id="@+id/agregar"
+        android:icon="@drawable/agregar"/>
+
+    <item android:title="Calendario"
+        android:id="@+id/calendario"
+        android:icon="@drawable/calendario"/>
+
+    <item android:title="Usuario"
+        android:id="@+id/user"
+        android:icon="@drawable/user"/>
+</menu>

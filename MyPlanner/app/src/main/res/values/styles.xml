@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- styles.xml -->
+<resources>
+    <style name="WeekDayTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#E6E1D3</item>
+    </style>
+
+    <style name="DateTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FF6E40C5</item>
+    </style>
+
+
+
+</resources>

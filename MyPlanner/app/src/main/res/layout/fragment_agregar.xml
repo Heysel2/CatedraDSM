@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:verticalScrollbarPosition="right"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="733dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:layout_marginTop="25dp"
+            android:text="Nueva Actividad"
+            android:textFontWeight="1800"
+            android:textSize="40dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="244dp"
+            android:textColor="@color/botones"/>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:ems="10"
+            android:hint="Titulo"
+            android:inputType="text"
+            android:textColor="@color/menu"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="359dp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="Descripción"
+            android:textColor="@color/menu"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="359dp"
+            android:layout_margin="25dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:inputType="time"
+            android:hint="Hora"
+            android:textColor="@color/menu"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="359dp"
+            android:layout_margin="25dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Fecha"
+            android:textColor="@color/menu"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="359dp"
+            android:layout_margin="25dp"
+            android:inputType="none" />
+
+        <Button
+            android:id="@+id/btnregistrarse"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:text="Agregar"
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="530dp"
+            android:backgroundTint="@color/botones"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

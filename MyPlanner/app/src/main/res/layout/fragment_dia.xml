@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usuario"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    >
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Actividades del dia"
+        android:textFontWeight="1800"
+        android:textSize="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:textColor="@color/botones"/>
+
+    <ImageView
+        android:id="@+id/image_view_fondo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-75dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+         android:src="@drawable/panda"
+        android:padding="0dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Fecha actual"
+        android:background="@drawable/cuadro_borde" />
+</LinearLayout>
